@@ -116,6 +116,7 @@ h2.join__heading {
     .join__container {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
+        max-width: 480px;
     }
 
     .join__message,
