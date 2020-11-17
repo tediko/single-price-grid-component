@@ -100,3 +100,25 @@ h2.join__heading {
 .join__item {
     font-size: 0.86rem;
 }
+
+/* Join media queries */
+@media (max-width: 768px) {
+    .join__container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .join__message {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .join__subscribe {
+        border-radius: 0;
+    }
+
+    .join__about {
+        grid-column: 1;
+        border-radius: 0 0 10px 10px;
+    }
+}
