@@ -25,6 +25,7 @@ body {
     align-items: center;
     background: var(--clr-gray);
     font-family: 'Karla', sans-serif;
+    color: #fff;
     min-height: 100vh;
 }
 
