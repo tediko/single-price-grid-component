@@ -24,6 +24,7 @@
 h1.join__heading {
     color: var(--clr-cyan);
     font-size: 1.468rem;
+    transition: font-size 250ms ease-in;
 }
 
 .join__subheading {
@@ -31,12 +32,14 @@ h1.join__heading {
     font-size: 1.093rem;
     font-weight: 700;
     margin: 24px 0 15px 0;
+    transition: font-size 250ms ease-in;
 }
 
 .join__text {
     color: var(--clr-blue);
     font-size: 0.98rem;
     line-height: 1.5rem;
+    transition: font-size 250ms ease-in;
 }
 
 .join__subscribe {
@@ -109,9 +112,29 @@ h2.join__heading {
         grid-template-rows: auto auto auto;
     }
 
+    .join__message,
+    .join__subscribe,
+    .join__about {
+        padding: 28px 24px;
+    }
+
     .join__message {
         grid-column: 1;
         grid-row: 1;
+    }
+
+    h1.join__heading {
+        font-size: 1.218rem;
+    }
+
+    .join__subheading {
+        font-size: 0.92rem;
+        line-height: 1.1rem;
+        margin: 24px 0 24px 0;
+    }
+
+    .join__text {
+        font-size: 0.843rem;
     }
 
     .join__subscribe {
