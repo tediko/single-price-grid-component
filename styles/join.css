@@ -74,6 +74,7 @@ h2.join__heading {
 }
 
 .join__cta {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,6 +85,10 @@ h2.join__heading {
     height: 48px;
     font-weight: 700;
     margin: 29px 0 0 0;
+}
+
+.join__cta:hover {
+    animation: ctaShake 500ms;
 }
 
 .join__about {
